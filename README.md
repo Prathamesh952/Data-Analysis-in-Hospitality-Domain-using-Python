@@ -2,7 +2,7 @@
 Analyzed booking data for AtliQ Grands across Delhi, Mumbai, Bangalore, and Hyderabad to uncover insights on occupancy, revenue, and customer behavior. Used Python and Pandas to perform EDA, build KPIs, and deliver data-driven recommendations to improve revenue and decision-making.
 
 Data Analysis in Hospitality Domain Using Python
-📋 Project Overview
+<h1>📋 Project Overview</h1>
 
 This project analyzes booking data for AtliQ Grands, a hotel chain operating across four major cities in India: Delhi, Mumbai, Bangalore, and Hyderabad. The objective of the analysis is to uncover insights related to occupancy rates, revenue patterns, and customer behavior to help AtliQ Grands address declining market share and improve overall revenue performance.
 
