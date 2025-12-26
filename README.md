@@ -1,110 +1,146 @@
-📊 Data Analysis in Hospitality Domain Using Python
+<h1 id="top">📊 Data Analysis in Hospitality Domain Using Python</h1>
 
-Analyzed booking data for AtliQ Grands across Delhi, Mumbai, Bangalore, and Hyderabad to uncover insights on occupancy, revenue, and customer behavior. Used Python and Pandas to perform EDA, build KPIs, and deliver data-driven recommendations to improve revenue and decision-making.
+<p>
+Analyzed booking data for <b>AtliQ Grands</b> across <b>Delhi, Mumbai, Bangalore, and Hyderabad</b> to uncover insights on occupancy, revenue, and customer behavior. Used <b>Python</b> and <b>Pandas</b> to perform EDA, build KPIs, and deliver data-driven recommendations to improve revenue and decision-making.
+</p>
 
-📋 Project Overview
+<hr>
 
-This project analyzes booking data for AtliQ Grands, a hotel chain operating across four major cities in India: Delhi, Mumbai, Bangalore, and Hyderabad.
-The objective of the analysis is to uncover insights related to occupancy rates, revenue patterns, and customer behavior to help AtliQ Grands address declining market share and improve overall revenue performance.
+<h2>📚 Table of Contents</h2>
+<ul>
+  <li><a href="#overview">Project Overview</a></li>
+  <li><a href="#problem">Problem Statement</a></li>
+  <li><a href="#objectives">Key Objectives</a></li>
+  <li><a href="#tools">Tools & Technologies</a></li>
+  <li><a href="#workflow">Data Analysis Workflow</a></li>
+  <li><a href="#insights">Key Insights</a></li>
+  <li><a href="#recommendations">Recommendations</a></li>
+  <li><a href="#impact">Impact of This Analysis</a></li>
+</ul>
 
-📚 Table of Contents
+<hr>
 
-Project Overview
+<h2 id="overview">📋 Project Overview</h2>
+<p>
+This project analyzes booking data for <b>AtliQ Grands</b>, a hotel chain operating across four major cities in India:
+</p>
+<ul>
+  <li>Delhi</li>
+  <li>Mumbai</li>
+  <li>Bangalore</li>
+  <li>Hyderabad</li>
+</ul>
+<p>
+The objective is to uncover insights related to occupancy rates, revenue patterns, and customer behavior to help address declining market share and improve overall revenue performance.
+</p>
 
-Problem Statement
+<hr>
 
-Key Objectives
+<h2 id="problem">🏨 Problem Statement</h2>
+<p>
+AtliQ Grands, established for over 20 years, operates multiple hotel categories:
+</p>
+<ul>
+  <li>AtliQ Seasons</li>
+  <li>AtliQ Exotica</li>
+  <li>AtliQ Bay</li>
+  <li>AtliQ Palace</li>
+</ul>
+<p>
+Despite a strong market presence, the company has been experiencing a decline in revenue and market share due to increasing competition. This project aims to leverage data analytics to provide actionable insights and strategic recommendations.
+</p>
 
-Tools & Technologies
+<hr>
 
-Data Analysis Workflow
+<h2 id="objectives">🚀 Key Objectives</h2>
+<ul>
+  <li>Analyze occupancy rates across cities, room types, and booking platforms</li>
+  <li>Identify trends in revenue realization</li>
+  <li>Understand customer behavior based on booking patterns</li>
+  <li>Provide data-driven recommendations to improve business performance</li>
+</ul>
 
-Key Insights
+<hr>
 
-Recommendations
+<h2 id="tools">🛠️ Tools & Technologies</h2>
+<ul>
+  <li><b>Python</b> – Core programming language for data analysis</li>
+  <li><b>Jupyter Notebook</b> – Interactive environment for exploration and visualization</li>
+  <li><b>Pandas</b> – Data manipulation, cleaning, and transformation</li>
+</ul>
 
-Impact of This Analysis
+<hr>
 
-🏨 Problem Statement
+<h2 id="workflow">📊 Data Analysis Workflow</h2>
 
-AtliQ Grands, established for over 20 years, operates multiple hotel categories including AtliQ Seasons, AtliQ Exotica, AtliQ Bay, and AtliQ Palace, catering to diverse customer segments. Despite a strong market presence, the company has been experiencing a decline in revenue and market share due to increasing competition.
+<h3>1️⃣ Understanding the Business Problem</h3>
+<ul>
+  <li>Identified key business questions such as occupancy trends and revenue patterns</li>
+</ul>
 
-The goal of this project is to leverage data analytics to provide actionable insights and strategic recommendations that support business growth.
+<h3>2️⃣ Data Collection</h3>
+<ul>
+  <li>Worked with booking data stored in CSV files</li>
+</ul>
 
-🚀 Key Objectives
+<h3>3️⃣ Exploratory Data Analysis (EDA)</h3>
+<ul>
+  <li>Explored dataset structure, distributions, and patterns</li>
+</ul>
 
-Analyze occupancy rates across cities, room types, and booking platforms
+<h3>4️⃣ Data Cleaning</h3>
+<ul>
+  <li>Handled missing values</li>
+  <li>Removed outliers (e.g., negative guest counts)</li>
+</ul>
 
-Identify trends in revenue realization
+<h3>5️⃣ Data Transformation</h3>
+<ul>
+  <li>Created key metrics such as <b>Occupancy Percentage</b></li>
+  <li>Defined KPIs for performance measurement</li>
+</ul>
 
-Understand customer behavior based on booking patterns
+<h3>6️⃣ Insights & Visualization</h3>
+<ul>
+  <li>Generated actionable insights using visualizations and statistical analysis</li>
+</ul>
 
-Provide data-driven recommendations to improve business performance
+<hr>
 
-🛠️ Tools & Technologies
+<h2 id="insights">📈 Key Insights</h2>
 
-Python – Core programming language for data analysis
+<h3>Occupancy Trends</h3>
+<ul>
+  <li>Presidential rooms had the highest occupancy rate (<b>59.28%</b>)</li>
+  <li>Standard rooms recorded the lowest occupancy rate (<b>57.89%</b>)</li>
+  <li>Delhi achieved the highest city-wise occupancy (<b>61.51%</b>)</li>
+  <li>Bangalore recorded the lowest occupancy (<b>56.33%</b>)</li>
+  <li>Weekend occupancy (<b>72.34%</b>) was significantly higher than weekdays (<b>50.88%</b>)</li>
+</ul>
 
-Jupyter Notebook – Interactive environment for data exploration and visualization
+<h3>Revenue Realization</h3>
+<ul>
+  <li>Mumbai generated the highest revenue (<b>₹668.57M</b>)</li>
+  <li>Delhi contributed the lowest revenue (<b>₹294.40M</b>)</li>
+</ul>
 
-Pandas – Data manipulation, cleaning, and transformation
+<hr>
 
-📊 Data Analysis Workflow
-Understanding the Business Problem
+<h2 id="recommendations">📑 Recommendations</h2>
+<ul>
+  <li>Maintain focus on <b>Delhi and Presidential rooms</b> to sustain high occupancy</li>
+  <li>Increase <b>weekend-focused promotions</b> to leverage higher demand</li>
+  <li>Implement <b>targeted strategies for Bangalore</b> to improve occupancy</li>
+  <li>Diversify revenue streams through stronger booking platform partnerships</li>
+</ul>
 
-Identified key business questions such as occupancy trends and revenue patterns
+<hr>
 
-Data Collection
+<h2 id="impact">✨ Impact of This Analysis</h2>
+<ul>
+  <li>Enhanced revenue generation through data-backed insights</li>
+  <li>Optimized resource allocation across cities and room categories</li>
+  <li>Strengthened strategic decision-making using analytics</li>
+</ul>
 
-Worked with booking data stored in CSV files
-
-Exploratory Data Analysis (EDA)
-
-Explored the dataset to understand structure, distributions, and patterns
-
-Data Cleaning
-
-Addressed missing values and outliers (e.g., negative guest counts)
-
-Data Transformation
-
-Created key metrics such as Occupancy Percentage, which served as the primary KPI
-
-Insights & Visualization
-
-Generated actionable insights using visualizations and statistical analysis
-
-📈 Key Insights
-Occupancy Trends
-
-Presidential rooms recorded the highest occupancy rate (59.28%), while Standard rooms had the lowest (57.89%)
-
-Delhi achieved the highest city-wise occupancy rate (61.51%), whereas Bangalore had the lowest (56.33%)
-
-Occupancy was significantly higher on weekends (72.34%) compared to weekdays (50.88%)
-
-Revenue Realization
-
-Mumbai generated the highest revenue (₹668.57M)
-
-Delhi contributed the lowest revenue (₹294.40M)
-
-📑 Recommendations
-
-Maintain focus on Delhi and Presidential rooms to sustain high occupancy rates
-
-Increase weekend-focused promotions to capitalize on higher demand
-
-Implement targeted strategies for Bangalore to improve occupancy levels
-
-Diversify revenue streams by strengthening partnerships with booking platforms
-
-✨ Impact of This Analysis
-
-By leveraging Python-based data analysis, this project provides AtliQ Grands with actionable insights that help to:
-
-Enhance revenue generation
-
-Optimize resource allocation across cities and room categories
-
-Strengthen strategic decision-making through data-driven insights
+<p align="right"><a href="#top">⬆️ Back to Top</a></p>
